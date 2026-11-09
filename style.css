@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Abril';
+    src: url('assets/police/AbrilFatface-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #353434;
+    color: white;
+}
+
+
+header {
+    text-align: center;
+    border: 8px solid black;
+    font-family: 'Minecraft', sans-serif;
+}
+
+#visage{
+    width: 10rem;
+    padding-left: 40px;
+    border-left: solid rgb(255, 111, 0) 8px;
+
+}
+
+nav {
+    font-family: 'Abril', sans-serif;
+    
+}
+
+nav h4 {
+    text-decoration: underline;
+}
+
+nav ul {
+    border-left: solid rgb(255, 111, 0) 8px;
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    /* transition: transform 0.3s ease; */
+}
+
+.nav:hover {
+    text-decoration: underline;
+}
+
+section, footer {
+    font-family: 'Abril', sans-serif;
+}
+
+#section1 h2 {
+    text-decoration: underline;
+}
+
+#section1 p {
+    text-indent: 40px;
+    padding-left: 40px;
+    border-left: solid rgb(255, 111, 0) 8px;
+
+}
+
+#section2 h3 {
+    text-decoration: underline;
+}
+
+#section2 div {
+    text-indent: 40px;
+    padding-left: 40px;
+    border-left: solid rgb(255, 111, 0) 8px;
+
+}
+
+#section3 h2 {
+    text-decoration: underline;
+}
+
+#section3 a {
+    text-decoration: none;
+    color: rgba(0, 255, 225, 0.956);
+}
+
+#section3 ul {
+    border-left: solid rgb(255, 111, 0) 8px;
+}
+
+#section4 h2 {
+   text-decoration: underline;
+}
+
+#section4 a {
+    text-decoration: none;
+    color: rgba(0, 255, 225, 0.956);
+}
+
+#section4 ul {
+    border-left: solid rgb(255, 111, 0) 8px;
+}
+
+#section4 a:hover {
+    text-decoration: underline white;
+}
+
+.lisec3:hover {
+    text-decoration: underline;
+}
+
+.lien {
+    text-decoration: none;
+    color: rgba(0, 255, 225, 0.956);
+}
+
+.lien:hover {
+    text-decoration: underline white;
+}

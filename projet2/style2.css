@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Abril';
+    src: url('assets/police/AbrilFatface-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #353434;
+    color: white;
+}
+
+header {
+    font-family: 'Minecraft', sans-serif;
+    text-align: center;
+    border: 6px solid black;
+}
+
+main, footer {
+    font-family: 'Abril', sans-serif; 
+}
+
+main p, footer {
+    text-indent: 40px;
+    padding-left: 40px;
+    border-left: solid rgb(255, 111, 0) 8px;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 10px;
+}
